@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Playball&display=swap');
+
+nav {
+    border-bottom: 2px solid #00000029;
+    font-family: "Lexend Exa";
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 48px;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0;
+}
+
+nav div{
+    display: flex;
+    gap: 32px;
+}
+
+nav h1 {
+    font-family: "Playball";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 42px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    padding: 48px 48px 96px 48px;
+}
+
+.header h1 {
+    font-family: "Lexend Exa";
+    font-size: 120px;
+    font-weight: 300;
+    line-height: 120px;
+    text-align: center;
+}
+
+.header img {
+    width: 100%;
+    border-radius: 56px;
+}
+
+.grid-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+    padding: 48px;
+}
+
+.grid-images .item img {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.grid-images .item h4 {
+    margin: 0;
+    font-family: Newsreader;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.grid-images .item p {
+    margin: 0;
+    font-family: Newsreader;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.about {
+    padding: 96px;
+}
+
+.about h1 {
+    text-align: center;
+    font-family: "Lexend Exa";
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 52px;
+}
+
+.work {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 48px;
+}
+
+.work h3 {
+    font-family: "Lexend Exa";
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.work p {
+    font-family: "Newsreader";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.feedback {
+    padding: 48px;
+    border: 2px solid #00000029
+}
+
+.feedback h1 {
+    font-family: "Lexend Exa";
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 52px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    align-items: start;
+    gap: 24px;
+    overflow-x: auto;
+    padding: 24px;
+}
+
+.card {
+    border: 2px solid #00000029;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.profile h6 {
+    font-family: Newsreader;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    margin: 0;
+}
+
+/* Text align defaults to left */
+.profile p {
+    font-family: Newsreader;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin: 0;
+    color: #00000099;
+}
+
+.profile img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.card .caption {
+    font-family: Newsreader;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 36px;
+    border-left: 2px solid #00000029;
+    width: 180px;
+    margin: 0;
+    margin-left: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 48px 24px 48px;
+    font-family: "Lexend Exa";
+}
+
+footer h1 {
+    font-weight: normal;
+    font-family: Lexend Exa;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #00000099;
+
+}
+
+footer button {
+    padding: 12px 24px;
+    border: 2px solid #00000029;
+    background-color: transparent;
+    font-family: Lexend Exa;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    border-radius: 8px;
+    margin: 0;
+}
