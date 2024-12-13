@@ -34,6 +34,12 @@ nav a{
     text-decoration: none;
     color: #000;
 }
+nav a:hover{
+    color:white ;
+    background-color:black ;
+    border-radius:10px ;
+    transform: scale(1.1);
+}
 
 body {
     margin: 0;
@@ -67,7 +73,10 @@ body {
     width: 100%;
     margin-bottom: 8px;
 }
-
+.grid-images .item:hover {
+    transform: scale(1.1);
+    
+}
 .grid-images .item h4 {
     margin: 0;
     font-family: Newsreader;
@@ -119,6 +128,12 @@ body {
     line-height: 24px;
 }
 
+.work p:hover{
+    
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
 .feedback {
     padding: 48px;
     border: 2px solid #00000029
@@ -162,7 +177,7 @@ body {
     margin: 0;
 }
 
-/* Text align defaults to left */
+
 .profile p {
     font-family: Newsreader;
     font-size: 15px;
@@ -219,6 +234,12 @@ footer button {
     text-align: left;
     border-radius: 8px;
     margin: 0;
+}
+footer button:hover{
+color: white;
+background-color:black;
+transform: scale(1.1);
+border-radius:10px ;
 }
 
 @media only screen and (max-width: 768px) {
