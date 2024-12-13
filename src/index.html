@@ -8,8 +8,13 @@
 </head>
 <body>
     <nav>
-        <h1>MyPortfolio</h1>
-        <div>
+        <div class="nav-container">
+            <h1>MyPortfolio</h1>
+            <button class="mobile-view" onclick="btnToggle()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M160-360v-80h640v80H160Zm0-160v-80h640v80H160Z"/></svg>
+            </button>
+        </div>
+        <div class="nav-links none" id="nav-links">
             <a href="#Home">Home</a>
             <a href="#Projects">Projects</a>
             <a href="#About">About</a>
@@ -18,52 +23,52 @@
     </nav>
     <header class="header" id="Home" >
     <h1>Explore My Portfolio</h1>
-    <img src="img/header-image.png">
+    <img src="../img/header-image.png">
     </header>
-    <!--Sematic tags for better organisation-->
+  
     <section class="grid-images" id="Projects">
         <div class="item">
-            <img src="img/grid-images/01.png">
+            <img src="../img/grid-images/01.png">
             <h4>Project Alpha</h4>
             <p>Web Design</p>
         </div>
         <div class="item">
-            <img src="img/grid-images/02.png">
+            <img src="../img/grid-images/02.png">
             <h4>Project Beta</h4>
             <p>Graphic Design</p>
         </div>
         <div class="item">
-            <img src="img/grid-images/03.png">
+            <img src="../img/grid-images/03.png">
             <h4>Project Gamma</h4>
             <p>App Development</p>
         </div>
         <div class="item">
-            <img src="img/grid-images/04.png">
+            <img src="../img/grid-images/04.png">
             <h4>Project Delta</h4>
             <p>Branding</p>
         </div>
         <div class="item">
-            <img src="img/grid-images/05.png">
+            <img src="../img/grid-images/05.png">
             <h4>Project Epsilion</h4>
             <p>Illustration</p>
         </div>
         <div class="item">
-            <img src="img/grid-images/06.png">
+            <img src="../img/grid-images/06.png">
             <h4>Project Zeta</h4>
             <p>Photography</p>
         </div>
         <div class="item">
-            <img src="img/grid-images/07.png">
+            <img src="../img/grid-images/07.png">
             <h4>Project Eta</h4>
             <p>Motion Graphics</p>
         </div>
         <div class="item">
-            <img src="img/grid-images/08.png">
+            <img src="../img/grid-images/08.png">
             <h4>Project Theta</h4>
             <p>UI/UX Design</p>
         </div>
         <div class="item">
-            <img src="img/grid-images/09.png">
+            <img src="../img/grid-images/09.png">
             <h4>Project Iota</h4>
             <p>3D Modeling</p>
         </div>
@@ -92,7 +97,7 @@
         <div class="card-container">
             <div class="card">
                 <div class="profile">
-                    <img src="img/user-profiles/01.png">
+                    <img src="../img/user-profiles/01.png">
                     <div class="details">
                         <h6>Alaric Montague</h6>
                         <p>CEO, Tech Corp</p>
@@ -102,7 +107,7 @@
             </div>
             <div class="card">
                 <div class="profile">
-                    <img src="img/user-profiles/02.png">
+                    <img src="../img/user-profiles/02.png">
                     <div class="details">
                         <h6>Beatrix Larkspur</h6>
                         <p>Creative Director, DesignHub</p>
@@ -112,7 +117,7 @@
             </div>
             <div class="card">
                 <div class="profile">
-                    <img src="img/user-profiles/03.png">
+                    <img src="../img/user-profiles/03.png">
                     <div class="details">
                         <h6>Caspian Thorne</h6>
                         <p>Marketing Manager, BrandWave</p>
@@ -122,7 +127,7 @@
             </div>
             <div class="card">
                 <div class="profile">
-                    <img src="img/user-profiles/04.png">
+                    <img src="../img/user-profiles/04.png">
                     <div class="details">
                         <h6>Daphne Wren</h6>
                         <p>Marketing Manager, BrandWave</p>
@@ -132,7 +137,7 @@
             </div>
             <div class="card">
                 <div class="profile">
-                    <img src="img/user-profiles/05.png">
+                    <img src="../img/user-profiles/05.png">
                     <div class="details">
                         <h6>Eamon Frost</h6>
                         <p>Product Manager, Appify</p>
@@ -142,7 +147,7 @@
             </div>
             <div class="card">
                 <div class="profile">
-                    <img src="img/user-profiles/06.png">
+                    <img src="../img/user-profiles/06.png">
                     <div class="details">
                         <h6>Fiona Hawke</h6>
                         <p>Art Director, Visualize</p>
@@ -158,5 +163,7 @@
         <h1>&copy; 2023 MyPortfolio</h1>
         <button>Contact Me</button>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>

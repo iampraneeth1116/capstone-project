@@ -17,9 +17,13 @@ nav {
     margin: 0;
 }
 
-nav div{
+nav .nav-links{
     display: flex;
     gap: 32px;
+}
+
+.mobile-view{
+    display: none;
 }
 
 nav h1 {
@@ -39,6 +43,12 @@ nav a:hover{
     background-color:black ;
     border-radius:10px ;
     transform: scale(1.1);
+}
+
+.mobile-view{
+    background: none;
+    border: none;
+    padding: 0;
 }
 
 body {
@@ -136,7 +146,7 @@ body {
 
 .feedback {
     padding: 48px;
-    border: 2px solid #00000029
+    border-bottom: 2px solid #00000029
 }
 
 .feedback h1 {
@@ -242,12 +252,12 @@ transform: scale(1.1);
 border-radius:10px ;
 }
 
+
 @media only screen and (max-width: 768px) {
     nav{
         flex-direction: column;
-        gap:20px;
+        gap: 20px;
     }
-
     .header h1{
         font-size: 100px;
     }
@@ -266,13 +276,32 @@ border-radius:10px ;
 }
 
 @media only screen and (max-width: 480px) {
+    nav .none{
+        display: none;
+    }
+    .mobile-view{
+        display: block;
+    }
     nav{
         padding: 12px 24px;
         gap: 16px;
     }
 
-    nav div{
-        gap: 18px;
+    .nav-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+        gap:20px;
+    }
+
+    nav .nav-links{
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
     }
 
     nav a{
@@ -323,7 +352,7 @@ border-radius:10px ;
 }
 
 @media only screen and (max-width: 320px) {
-    nav div{
+    nav .links{
         flex-direction: column;
         align-items: center;
         gap: 10px;
