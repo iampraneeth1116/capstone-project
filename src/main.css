@@ -24,6 +24,9 @@ nav .nav-links{
 
 .mobile-view{
     display: none;
+    background: none;
+    border: none;
+    padding: 0;
 }
 
 nav h1 {
@@ -45,11 +48,6 @@ nav a:hover{
     transform: scale(1.1);
 }
 
-.mobile-view{
-    background: none;
-    border: none;
-    padding: 0;
-}
 
 body {
     margin: 0;
@@ -187,7 +185,6 @@ body {
     margin: 0;
 }
 
-
 .profile p {
     font-family: Newsreader;
     font-size: 15px;
@@ -245,12 +242,12 @@ footer button {
     border-radius: 8px;
     margin: 0;
 }
-footer button:hover{
-color: white;
-background-color:black;
-transform: scale(1.1);
-border-radius:10px ;
-}
+    footer button:hover{
+    color: white;
+    background-color:black;
+    transform: scale(1.1);
+    border-radius:10px ;
+    }
 
 
 @media only screen and (max-width: 768px) {
