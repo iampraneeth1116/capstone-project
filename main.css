@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Playball&display=swap');
 
+* {
+    scroll-behavior: smooth;
+}
+
 nav {
     border-bottom: 2px solid #00000029;
     font-family: "Lexend Exa";
@@ -24,6 +28,11 @@ nav h1 {
     font-weight: 400;
     line-height: 42px;
     margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
 }
 
 body {
