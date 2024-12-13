@@ -255,8 +255,13 @@ footer button {
         flex-direction: column;
         gap: 20px;
     }
+    nav .nav-links{
+        gap: 16px;
+        font-size: 22px;
+    }
     .header h1{
-        font-size: 100px;
+        font-size: 80px;
+        line-height: 80px;
     }
 
     .header img{
@@ -332,18 +337,21 @@ footer button {
     }
     .work{
         display: block;
+        text-align: center;
     }
 
     footer{
         padding: 48px 36px;
+        align-items: center;
     }
 
     footer h1{
-        font-size: 18px;
-        line-height: 18px;
+        font-size: 12px;
+        line-height: 12px;
     }
 
     footer button{
+        padding: 6px 12px;
         font-size: 12px;
     }
 }
